@@ -1,0 +1,20 @@
+
+body {
+  background-image: url('background.jpg');
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+#box {
+align-items: center;
+opacity: 75%;
+display: flex;
+justify-content: center;
+}
+
+div {
+text-align: center;
+font-weight: bold; 
+font-size: 30px;
+} 
