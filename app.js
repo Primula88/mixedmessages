@@ -1,14 +1,14 @@
 const randomWords = [
-    [ "ugly", "beautiful", "weird", "powned", "capable","deserving of love", "sexy af", "a twat", ],
+    [ "a winner", "beautiful", "weird", "full of power", "capable","deserving of love", "sexy af", "tough", ],
     ["conquer North Korea", "eat anything you like", "screw a dolphin", "steal a baby", "write some code", "buy a puppy", ],
-    [ "the salvation army", "the mirror", "open waters", "your sleep", "the toilet", ],
-    ["Let's go!",  "You're a peackock, time to fly!","Onward and upward!", "You got this!","Ding", ]
+    [ "the salvation army", "the mirror", "open waters", "your sleep", "the toilet", "life", ],
+    ["UHAA!",  "Time to fly!","Onward and upward!", "You got this!","Ding", ]
 ];
 
 const createRandomSentence = () => {
     return`You are ${
       randomWords[0][Math.floor(Math.random() * randomWords[0].length)]
-    }. Today you will ${
+    }. This year you will ${
       randomWords[1][Math.floor(Math.random() * randomWords[1].length)]
     }. Test your limits in ${
       randomWords[2][Math.floor(Math.random() * randomWords[2].length)]
