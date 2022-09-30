@@ -23,9 +23,11 @@ el.addEventListener('click', function handleClick(event) {
   el.textContent = createRandomSentence();
 });
 
-el.style.backgroundColor = 'salmon';
+el.style.borderRadius = '25px';
+el.style.backgroundColor = '#FFFFFF';
 el.style.width = '500px';
 el.style.height = '150px';
+
 
 const box = document.getElementById('box');
 box.appendChild(el);  
